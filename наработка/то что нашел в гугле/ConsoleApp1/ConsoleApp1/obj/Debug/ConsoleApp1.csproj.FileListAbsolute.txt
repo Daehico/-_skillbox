@@ -1,0 +1,2 @@
+D:\skillbox\наработка\то что нашел в гугле\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\skillbox\наработка\то что нашел в гугле\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache

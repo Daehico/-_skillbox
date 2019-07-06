@@ -1,0 +1,14 @@
+D:\skillbox\тема 5\урок 2\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\skillbox\тема 5\урок 2\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\skillbox\тема 5\урок 2\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\skillbox\тема 5\урок 2\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\skillbox\тема 5\урок 2\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\skillbox\тема 5\урок 2\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\skillbox\тема 5\урок 2\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\skillbox\тема 5\урок 3\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\skillbox\тема 5\урок 3\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\skillbox\тема 5\урок 3\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\skillbox\тема 5\урок 3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\skillbox\тема 5\урок 3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\skillbox\тема 5\урок 3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\skillbox\тема 5\урок 3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -1,0 +1,7 @@
+D:\skillbox\раздел 1\ConsoleHelper\ConsoleHelper\obj\Debug\ConsoleHelper.csprojAssemblyReference.cache
+D:\skillbox\раздел 1\ConsoleHelper\ConsoleHelper\obj\Debug\ConsoleHelper.csproj.CoreCompileInputs.cache
+D:\skillbox\раздел 1\ConsoleHelper\ConsoleHelper\bin\Debug\ConsoleHelper.exe.config
+D:\skillbox\раздел 1\ConsoleHelper\ConsoleHelper\bin\Debug\ConsoleHelper.exe
+D:\skillbox\раздел 1\ConsoleHelper\ConsoleHelper\bin\Debug\ConsoleHelper.pdb
+D:\skillbox\раздел 1\ConsoleHelper\ConsoleHelper\obj\Debug\ConsoleHelper.exe
+D:\skillbox\раздел 1\ConsoleHelper\ConsoleHelper\obj\Debug\ConsoleHelper.pdb

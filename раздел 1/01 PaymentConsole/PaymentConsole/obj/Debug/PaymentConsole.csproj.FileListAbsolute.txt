@@ -1,0 +1,14 @@
+D:\skillbox\Материалы_1_модуль_5_урок\01 PaymentConsole\PaymentConsole\bin\Debug\PaymentConsole.exe.config
+D:\skillbox\Материалы_1_модуль_5_урок\01 PaymentConsole\PaymentConsole\bin\Debug\PaymentConsole.exe
+D:\skillbox\Материалы_1_модуль_5_урок\01 PaymentConsole\PaymentConsole\bin\Debug\PaymentConsole.pdb
+D:\skillbox\Материалы_1_модуль_5_урок\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.csprojAssemblyReference.cache
+D:\skillbox\Материалы_1_модуль_5_урок\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.csproj.CoreCompileInputs.cache
+D:\skillbox\Материалы_1_модуль_5_урок\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.exe
+D:\skillbox\Материалы_1_модуль_5_урок\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.pdb
+D:\skillbox\раздел 1\01 PaymentConsole\PaymentConsole\bin\Debug\PaymentConsole.exe.config
+D:\skillbox\раздел 1\01 PaymentConsole\PaymentConsole\bin\Debug\PaymentConsole.exe
+D:\skillbox\раздел 1\01 PaymentConsole\PaymentConsole\bin\Debug\PaymentConsole.pdb
+D:\skillbox\раздел 1\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.csprojAssemblyReference.cache
+D:\skillbox\раздел 1\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.csproj.CoreCompileInputs.cache
+D:\skillbox\раздел 1\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.exe
+D:\skillbox\раздел 1\01 PaymentConsole\PaymentConsole\obj\Debug\PaymentConsole.pdb
