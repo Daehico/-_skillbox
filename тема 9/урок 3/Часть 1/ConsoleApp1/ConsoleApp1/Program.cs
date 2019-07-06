@@ -3,126 +3,48 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TweetSharp;
+using System.Text.RegularExpressions;
+using System.Diagnostics;
 
 namespace ConsoleApp1
 {
     class Program
     {
-        //enum statusOrder
-        //{
+        private static object service;
 
-        //    FormationOfTheOrder,
-        //    WaitingForPayment,
-        //    Delivery,
-        //    Delivered
-
-        //}
         static void Main(string[] args)
         {
+            var author1 = new AuthorOfTweet("Дмитрий Дудин", false, "@Daehico");
+            var author2 = new AuthorOfTweet("Евгений Ройзман",true, "@roizmanfond");
 
-            //String[,] order = new string[8, 2];
-            //order[0, 0] = 0.ToString();
-            //order[0, 1] = statusOrder.FormationOfTheOrder.ToString();
+            var date1 = new DateOfTweet(14,07,2018);
+            var date2 = new DateOfTweet(21, 05, 2017);
 
-            //order[1, 0] = 1.ToString();
-            //order[1, 1] = statusOrder.Delivered.ToString();
+            var text1 = new TextOfTweet("Привет, Твиттер! ", "#мойпервыйТвит");
+            var text2 = new TextOfTweet("В 55 лет для меня каждый марафон испытание. Мне надо обязательно выбежать из 4х часов. Пусть даже за 3 часа 59 мин. Зачем? Вот я буду старым, пристанут ко мне внуки: «Дедушка, а за сколько ты марафон пробежал?», а я: «Да, за 3 часа»", " ");
+            var text3 = new TextOfTweet("Задача организации, в особенности же новая модель организационной деятельности влечет за собой процесс внедрения и модернизации форм развития. Не следует, однако забывать, что рамки и место обучения кадров требуют от нас анализа модели развития. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом постоянный количественный рост и сфера нашей активности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий. Равным образом рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития. С другой стороны рамки и место обучения кадров позволяет оценить значение модели развития.", "");
 
-            //order[2, 0] = 2.ToString();
-            //order[2, 1] = statusOrder.Delivery.ToString();
+            
 
-            //order[3, 0] = 3.ToString();
-            //order[3, 1] = statusOrder.WaitingForPayment.ToString();
-
-            //order[4, 0] = 4.ToString();
-            //order[4, 1] = statusOrder.Delivery.ToString();
-
-            //order[5, 0] = 5.ToString();
-            //order[5, 1] = statusOrder.Delivered.ToString();
-
-            //order[6, 0] = 6.ToString();
-            //order[6, 1] = statusOrder.WaitingForPayment.ToString();
-
-            //order[7, 0] = 7.ToString();
-            //order[7, 1] = statusOrder.FormationOfTheOrder.ToString();
-
-            //Console.WriteLine("Ввдите,пожалуйста, номер Вашего заказа");
-            //var writeId = Console.ReadLine();
-
-            //string id = writeId.ToString();
+            var view = new ViewATweet();
+            view.View(text1, date1, author1);
+            view.View(text2, date2, author2);
+            var result1 = text1.text;
 
 
-            //int number;
-            //bool result = Int32.TryParse(id, out number);
-            //if (result)
-            //{
-            //    if (number < 7)
-            //    {
-
-
-            //        var a = order[number, 1];
-            //        var b = "FormationOfTheOrder";
-            //        var c = "WaitingForPayment";
-            //        var d = "Delivery";
-            //        var e = "Delivered";
-
-            //        if (a == b)
-            //        {
-            //            Console.WriteLine("Cтатус вашего заказа: формирование заказа");
-            //        }
-            //        else if (a == c)
-            //        {
-            //            Console.WriteLine("Cтатус вашего заказа: Ожидание оплаты заказа");
-            //        }
-
-            //        else if (a == d)
-            //        {
-            //            Console.WriteLine("Cтатус вашего заказа: Доставка");
-            //        }
-
-            //        else if (a == e)
-            //        {
-            //            Console.WriteLine("Cтатус вашего заказа: Доставлен");
-            //        }
-            //        else
-            //        {
-            //            Console.WriteLine("Заказ под таким номером не обнаружен. Пожалуйста, проверьте правильность введенного номера заказа");
-            //        }
-            //    }
-
-            //}
-
-            int id = ReadText.TextCount();
-            int Id10()
-            {
-                while (id <= 10)
-                {
-                    ReadText.TextReader();
-                    string result = ReadText.Text();
-                    Console.WriteLine(result);
-                    id = ReadText.TextCount();
-                }
-
-                return id;
-            }
-
-            while (id <= 10)
-            {
-                Id10();
-            }
-
-            while (id > 10)
-            {
-                ReadText.TextReader();
-                string result = ReadText.Text();
-                Console.WriteLine(result);
-                id = ReadText.TextCount();
-                Id10();
-            }
-
-
+            var textString = StringHelper.Cut(result1);
+            Console.WriteLine(textString);
+            
+            var authenticator = Authenticator.Authenticators();
             Console.ReadKey();
-        }
-    }
-}
 
+        }
+
+
+
+            
+        }
+   
+    }
 

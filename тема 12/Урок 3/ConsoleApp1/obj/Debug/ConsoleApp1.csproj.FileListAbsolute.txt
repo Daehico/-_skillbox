@@ -1,0 +1,39 @@
+D:\skillbox\тема 8\урок 4\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\skillbox\тема 8\урок 4\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\skillbox\тема 8\урок 4\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\skillbox\тема 8\урок 4\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\skillbox\тема 8\урок 4\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\skillbox\тема 8\урок 4\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\skillbox\тема 8\урок 4\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\skillbox\тема 9\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\skillbox\тема 9\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\skillbox\тема 9\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\skillbox\тема 9\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\Hammock.dll
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\TweetSharp.dll
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\Hammock.pdb
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\bin\Debug\TweetSharp.pdb
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\skilbox\lesson-8-master@96ba0c069d8\Урок 2\1 часть(твитер)\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\Hammock.dll
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\TweetSharp.dll
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\Hammock.pdb
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\bin\Debug\TweetSharp.pdb
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+H:\Skillbox git\тема 12\Урок 3\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
