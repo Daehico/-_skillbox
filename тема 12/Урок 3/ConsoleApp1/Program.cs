@@ -17,7 +17,8 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-           Tweet tweet;
+            Tweet[] _tweets = new Tweet[10];
+            Tweet tweet;
             const string consumerKey = "x6roMQs0MZ1PwjNmAELfziqq9";
             const string consumerSecret = "LztwfuCe5wFMbTh2i5MmCuBCcog2taz39Jfock7CiCJbooWWJP";
             var service = new TwitterService(consumerKey, consumerSecret);
@@ -44,16 +45,19 @@ namespace ConsoleApp1
 
                 tweet = new Tweet(test1, test2, test3);
 
-                XmlSerializer formatter = new XmlSerializer(typeof(Tweet));
-                using (FileStream fs = new FileStream("tweets.xml", FileMode.OpenOrCreate))
-                {
-                    formatter.Serialize(fs, tweet);
+                _tweets[i] = tweet;
 
-                    Console.WriteLine("Объект сериализован");
-                }
                 Console.WriteLine();
             }
-            
+
+            XmlSerializer formatter = new XmlSerializer(typeof(Tweet[]));
+            using (FileStream fs = new FileStream("tweets.xml", FileMode.OpenOrCreate))
+            {
+                formatter.Serialize(fs, _tweets);
+
+                Console.WriteLine("Объект сериализован");
+            }
+
 
 
             Console.ReadKey();

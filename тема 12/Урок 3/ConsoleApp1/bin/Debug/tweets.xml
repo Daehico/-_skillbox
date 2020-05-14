@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<ArrayOfTweet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>Число умерших от COVID-19 во всем мире превысило 300 тысяч человек 
+
+https://t.co/DKJcqsg72V</text>
+    <day>2020-05-14T19:26:50Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>RT @navalnylive: «Я думаю, что главная цель правительства, — провести новый инструмент принуждения бюджетников. Рейтинги падают, и это одно…</text>
+    <day>2020-05-14T19:19:35Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>RT @teamnavalny_mos: ⚡️На РОИ начали скручивать подписи.
+
+Наш сторонник подключил к нашей петиции логгер и увидел, как за 13 секунд «исчезл…</text>
+    <day>2020-05-14T19:17:49Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>Уже есть 80 тысяч!!! Давайте поднажмём! Осталось всего 20. РОИ :: 5 шагов: как поддержать граждан России и её эконо… https://t.co/smyCS10IaI</text>
+    <day>2020-05-14T19:06:31Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>Мосгорсуд рассмотрит жалобу на арест создателя проекта «Омбудсмен полиции» Владимира Воронцова 25 мая
+
+https://t.co/chFhRD0B37</text>
+    <day>2020-05-14T18:55:37Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>RT @navalnylive: Пока эфир Навального в онлайне смотрит больше 100 тысяч человек, мы напоминаем: подпишите петицию на https://t.co/ugzryiT8…</text>
+    <day>2020-05-14T18:43:33Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>RT @navalnylive: «Сечин потирает ручки. Потому что там, где дочь Путина, — там колоссальные деньги. „Роснефть” и так нефтяное корыто, из ко…</text>
+    <day>2020-05-14T18:38:25Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>Твиттер спрашивает: что нового? 
+В общем ничего - сборище идиотов в форме змеи, кусающей себя за хвост.... https://t.co/sDW8Ld4BMK</text>
+    <day>2020-05-14T18:38:25Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>RT @navalnylive: «На этом посту есть телевизор, но никакие передачи туда не добивают. И когда Руслана привезли на пост, местные военные, ко…</text>
+    <day>2020-05-14T18:38:14Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+  <Tweet>
+    <username>TweetSharp.TwitterUser</username>
+    <text>Бесконечно можно смотреть на три вещи: как горит огонь, как течёт вода и как прибавляются подписи на… https://t.co/atQiMW6KEq</text>
+    <day>2020-05-14T18:28:54Z</day>
+    <dayInt>0</dayInt>
+    <mounth>0</mounth>
+    <year>0</year>
+  </Tweet>
+</ArrayOfTweet>
