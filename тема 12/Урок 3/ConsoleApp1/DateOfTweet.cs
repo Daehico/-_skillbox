@@ -15,11 +15,11 @@ namespace ConsoleApp1
         {
         }
 
-        public int Day
+        public int DayInt
         {
             get
             {
-                return this.day;
+                return this.dayInt;
             }
 
         }

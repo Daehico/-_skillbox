@@ -17,7 +17,7 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-            TextOfTweet tweet;
+           Tweet tweet;
             const string consumerKey = "x6roMQs0MZ1PwjNmAELfziqq9";
             const string consumerSecret = "LztwfuCe5wFMbTh2i5MmCuBCcog2taz39Jfock7CiCJbooWWJP";
             var service = new TwitterService(consumerKey, consumerSecret);
@@ -32,13 +32,20 @@ namespace ConsoleApp1
 
             service.AuthenticateWith(access.Token, access.TokenSecret);
             var tweets = service.ListTweetsOnHomeTimeline(new ListTweetsOnHomeTimelineOptions()).ToList();
-
+            Console.WriteLine(tweets);
+            
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(tweets[i].Text);
-                tweet = (TextOfTweet)tweets[i].Text;
-                XmlSerializer formatter = new XmlSerializer(typeof(TextOfTweet));
-                using (FileStream fs = new FileStream("persons.xml", FileMode.OpenOrCreate))
+
+                string test1 = tweets[i].Author.ToString();
+                string test2 = tweets[i].Text;
+                DateTime test3 = tweets[i].CreatedDate;
+
+                tweet = new Tweet(test1, test2, test3);
+
+                XmlSerializer formatter = new XmlSerializer(typeof(Tweet));
+                using (FileStream fs = new FileStream("tweets.xml", FileMode.OpenOrCreate))
                 {
                     formatter.Serialize(fs, tweet);
 

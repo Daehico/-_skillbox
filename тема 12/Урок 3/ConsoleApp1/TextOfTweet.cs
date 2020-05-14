@@ -10,18 +10,23 @@ namespace ConsoleApp1
     [Serializable]
     public class TextOfTweet : Tweet
     {
+        public string Text { get; private set; }
         public TextOfTweet(string text) : base(text)
         {
-            this.text = text;
+            Text = text;
         }
 
-        public static explicit operator TextOfTweet(string v)
-        {
-            TextOfTweet text = (TextOfTweet)v;
-            return text;
-        }
+       
+
+
+
+        //public static explicit operator TextOfTweet(string v)
+        //{
+
+        //    return new TextOfTweet {text = v};
+        //}
     }
 
-
+   
 
 }

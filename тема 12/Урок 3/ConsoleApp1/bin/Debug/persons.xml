@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Tweet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <username>TweetSharp.TwitterUser</username>
+  <text>Суд в Екатеринбурге вынес первый в России приговор по уголовному делу о сотрудничестве с «нежелательной организацие… https://t.co/HXcx7GYWrh</text>
+  <day>2020-02-11T13:35:41Z</day>
+  <dayInt>0</dayInt>
+  <mounth>0</mounth>
+  <year>0</year>
+</Tweet>et>
