@@ -19,7 +19,9 @@ namespace ConsoleApp1
         {
             Tweet[] _tweets = new Tweet[10];
             Tweet tweet = new Tweet();
-           
+            const string consumerKey = "x6roMQs0MZ1PwjNmAELfziqq9";
+            const string consumerSecret = "LztwfuCe5wFMbTh2i5MmCuBCcog2taz39Jfock7CiCJbooWWJP";
+
             var service = new TwitterService(consumerKey, consumerSecret);
 
             var requestToken = service.GetRequestToken();
