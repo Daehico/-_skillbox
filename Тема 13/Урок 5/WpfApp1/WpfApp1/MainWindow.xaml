@@ -1,0 +1,100 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Макет дипломной работы" Height="746" Width="943" Background="Black"
+        Loaded="Window_Loaded">
+
+    <UserControl>
+        <UserControl.Resources>
+            <Image x:Key="resourceImage" Source="Resorses/home icon.png"/>
+        </UserControl.Resources>
+
+        <Grid Margin="10,10,-81,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="746px"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="370px">
+                </ColumnDefinition>
+                <ColumnDefinition Width="573px"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border CornerRadius="14" Grid.Column="0" Background="White">
+            </Border>
+
+            <Border  Background="#151f28" Margin="0,0,0,593"></Border>
+
+            <Border Background="White" Margin="0,158,0,0">
+                <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Актуальные темы:" FontSize="20pt" Margin="36,224,81,329" Foreground="#4e5f6f" FontWeight="Bold" />
+            </Border>
+            <Ellipse Margin="125,92,125,533">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name="userPic"  Stretch="UniformToFill"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="149,256,125,0" TextWrapping="Wrap" Text="@Ivanov" VerticalAlignment="Top" FontSize="16pt" Width="96" 
+                   Foreground="#0083fe"/>
+
+            <Border BorderThickness="1px" BorderBrush="#e1e3e6" Background="#f8f9f9" Margin="0,305,180,379"></Border>
+            <TextBlock x:Name="textBlock2" Text="12000" FontSize="16pt" Foreground="#4e5f6f" FontWeight="Bold" VerticalAlignment="Center" 
+                       RenderTransformOrigin="0.573,-0.621" Margin="71,317,237,407" Height="22"/>
+            <Border BorderThickness="1px" BorderBrush="#e1e3e6" Background="#f8f9f9" Margin="0,305,3,379" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="177"/>
+
+            <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="71,339,0,0" TextWrapping="Wrap" Text="Читают" FontSize="13pt" VerticalAlignment="Top"
+                   Foreground="#4e5f6f"/>
+            <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="248,316,0,0" TextWrapping="Wrap" Text="2000" VerticalAlignment="Top" Foreground="#4e5f6f"
+                   FontWeight="Bold" FontSize="16pt" RenderTransformOrigin="0.375,1.29"/>
+            <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="248,339,0,0" TextWrapping="Wrap" Text="Читает" VerticalAlignment="Top" FontSize="13pt" 
+                   Foreground="#4e5f6f" />
+            <TextBlock x:Name="textBlock6" Foreground="#4e5f6f" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Иванов Иван" VerticalAlignment="Top" 
+                 FontSize="20pt" Margin="103,221,0,0" FontWeight="Bold"/>
+            <TextBlock x:Name="textBlock7" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,420,0,0" TextWrapping="Wrap" Text="#ЦойЖив" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock8" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,441,0,0" TextWrapping="Wrap" Text="#Ямакаси" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock9" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,462,0,0" TextWrapping="Wrap" Text="#Квантовый скачек" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock10" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,483,0,0" TextWrapping="Wrap" Text="#кинопоиск" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock11" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,504,0,0" TextWrapping="Wrap" Text="#рубль" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock12" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,525,0,0" TextWrapping="Wrap" Text="#селфи" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock13" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,546,0,0" TextWrapping="Wrap" Text="#ужин" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlock14" Foreground="#0083fe" FontSize="14pt" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,567,0,0" TextWrapping="Wrap" Text="#игры" VerticalAlignment="Top"
+                   />
+
+
+            <Border Grid.Column="1" Margin="5,10,31,639" Background="White" CornerRadius="14" >
+                <TextBox x:Name="textBox" Height="44px" FontSize="14pt" TextWrapping="Wrap" Text="Введите #хештег или @имя"  Margin="15,33,136,20" RenderTransformOrigin="0.498,1.545" Foreground="#4e5f6f" FontStyle="Italic"/>
+            </Border>
+            <TextBlock x:Name="textBlock15" Grid.Column="1" HorizontalAlignment="Left" Margin="32,10,0,0" TextWrapping="Wrap" Text="Поиск" VerticalAlignment="Top" FontSize="16pt" FontWeight="Bold"
+                   Foreground="#4e5f6f"/>
+            <Image x:Name="image1" Grid.Column="1" HorizontalAlignment="Left" Height="44px" Margin="456,43,0,0" VerticalAlignment="Top" Width="29"/>
+
+            <Button x:Name="button"  Grid.Column="1" HorizontalAlignment="Left" Margin="355,43,0,0" VerticalAlignment="Top"  Height="44px" Width="44px">
+                <Image Stretch="UniformToFill" Source="Resorses\search icon.png" Height="44px" RenderTransformOrigin="-0.792,0.526" Margin="0"/>
+            </Button>
+            <Button x:Name="button1" Background="White" BorderThickness="2px" BorderBrush="#0083ff" Content="{Binding Mode=OneWay, Source={StaticResource resourceImage}}" Grid.Column="1" HorizontalAlignment="Left" Margin="441,43,0,0" VerticalAlignment="Top"
+                   Height="44px" Width="81" FontSize="14" Foreground="#FF4F1919" RenderTransformOrigin="0.884,0.445"/>
+
+            <Border Grid.Column="1" Background="White" Margin="5,112,31,51" CornerRadius="14">
+                <TextBlock x:Name="textBlock16" TextWrapping="Wrap" Text="Анатолий Хацзс" Margin="91,10,236,467" FontSize="14pt" FontWeight="Bold" Foreground="#4e5f6f"/>
+            </Border>
+
+            <Ellipse Margin="31,129,493,571" RenderTransformOrigin="1.848,0.638" Grid.Column="1">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="Resorses\5VuAKyqXHcg.jpg" Stretch="UniformToFill"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <TextBlock x:Name="username" Text="@tolik" FontSize="12pt" Foreground="#0083fe" Grid.Column="1" Margin="246,125,278,593"></TextBlock>
+            <TextBlock x:Name="data" Text="7 сек. назад" FontSize="12pt" Foreground="#a2aeba" Grid.Column="1" Margin="423,129,52,589"></TextBlock>
+            <TextBlock x:Name="Text" Text="Ну я бы не сказал, что в этой стране рубль сможет обвалиться"  FontSize="13pt" Foreground="#8998a5" Grid.Column="1" 
+                       Margin="86,147,52,533" RenderTransformOrigin="0.604,0.507" TextWrapping="Wrap" ></TextBlock>
+            <Border Background="#e8e9e9" Grid.Column="1" Height="1px" Margin="10,196,31,549"></Border>
+
+            <Border Background="#e8e9e9" Grid.Column="1" Height="1px" Margin="10,649,31,96"></Border>
+            <TextBlock x:Name="read" Grid.Column="1" Text="Загрузить другие записи " Margin="147,655,213,67" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="13pt" Foreground="#0083fe" FontWeight="Bold"/>
+            <ListBox x:Name="trendsList" HorizontalAlignment="Left" Height="230" VerticalAlignment="Top" Width="237" Margin="40,420,0,0"/>
+            <ListBox x:Name="listOfTweets" HorizontalAlignment="Left" Height="500" VerticalAlignment="Top" Width="491" Grid.Column="1" Margin="31,125,0,0"/>
+        </Grid>
+    </UserControl>
+</Window>
