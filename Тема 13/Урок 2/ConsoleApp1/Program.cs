@@ -18,7 +18,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Tweet[] _tweets = new Tweet[10];
-            Tweet tweet = new Tweet();
+           
             const string consumerKey = "x6roMQs0MZ1PwjNmAELfziqq9";
             const string consumerSecret = "LztwfuCe5wFMbTh2i5MmCuBCcog2taz39Jfock7CiCJbooWWJP";
 
@@ -36,18 +36,23 @@ namespace ConsoleApp1
             var tweets = service.ListTweetsOnHomeTimeline(new ListTweetsOnHomeTimelineOptions()).ToList();
             var trends = service.ListLocalTrendsFor(new ListLocalTrendsForOptions { Id = 1 });
 
-            Console.WriteLine(tweets);
+            Tweet tweet = new Tweet();
 
             tweet.username = tweets.Select(x => x.Author);
             tweet.text = tweets.Select(y => y.Text);
             tweet.day = tweets.Select(z => z.CreatedDate);
 
             var trendsName = trends.Where(i => i.Name.StartsWith("#")).Select(d => d.Name);
-            Console.WriteLine(trendsName);
+           
 
             var _tenTweets = tweets.Take(10);
 
-            Console.WriteLine(_tenTweets);
+           
+
+            foreach (TwitterStatus text in _tenTweets.ToList())
+            {
+                Console.WriteLine(text.Text);
+            }
 
 
             //for (int i = 0; i < 10; i++)
