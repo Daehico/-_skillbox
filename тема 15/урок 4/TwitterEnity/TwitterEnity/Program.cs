@@ -34,7 +34,13 @@ namespace TwitterEnity
                 {
 
                     //добавление
-                    db.Tweet.Add(new Tweets { TextOfTweet = _tweet.Text, CreatedDate = _tweet.CreatedDate });
+
+                    Tweets test = new Tweets { TextOfTweet = _tweet.Text, CreatedDate = _tweet.CreatedDate };
+                    db.User.Add(new Users { UserName = _tweet.Author.ScreenName.ToString() });
+                    db.SaveChanges();
+
+                    var lastUser = db.User.ToList().Last();
+                    lastUser.Tweet.Add(test);
                     db.SaveChanges();
 
                     //редактирование
